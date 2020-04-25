@@ -2,6 +2,7 @@
 
 This project can be run in two ways :
 1. Using directly the docker command :
+
 docker create \
   --name=code-server \
   -e PUID=1000 \
@@ -14,7 +15,7 @@ docker create \
   linuxserver/code-server
   
 2. Using docker-compose  :
-
+    Download the yml file from Docker-compose folder and store it in a separate folder than use command : docker-compose up
     
 Parameters : 
 -p 8443	web gui
