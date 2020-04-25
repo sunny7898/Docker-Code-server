@@ -14,23 +14,7 @@ docker create \
   linuxserver/code-server
   
 2. Using docker-compose  :
-version: "2.1"
-services:
-  code-server:
-    image: linuxserver/code-server
-    container_name: code-server
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Asia/Kolkata
-      - PASSWORD=password #optional
-    
-    volumes:
-      - /path/to/appdata/config:/config
-    ports:
-      - 8443:8443
-    restart: always
-    
+
     
 Parameters : 
 -p 8443	web gui
