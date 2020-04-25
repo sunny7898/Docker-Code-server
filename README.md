@@ -20,6 +20,7 @@ docker create \
 2. Using docker-compose  :
     Download the yml file from Docker-compose folder and store it in a separate folder than use command : docker-compose up
     
+3. To access the vscode-server :  Go to the browser and use localhost with port 8443
 Parameters : 
 -p 8443	web gui
 -e PUID=1000	for UserID 
