@@ -1,6 +1,9 @@
 # Docker-Code-server
+Step1: Download the docker code-server image :
+Command ->  docker pull linuxserver/code-server
 
-This project can be run in two ways :
+Step2 : This project can be run in two ways :
+
 1. Using directly the docker command :
 
 docker create \
